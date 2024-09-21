@@ -26,7 +26,7 @@
     "count": 1,
     "components": {
       "minecraft:custom_model_data": 20,
-      "minecraft:item_name": "{translate: 'security_craft.camera'}",
+      "minecraft:item_name": "{translate: 'security_craft.camera.name', fallback: 'Security Camera'}",
       "minecraft:custom_data": "{}",
       "minecraft:entity_data": "{id: 'minecraft:item_frame', Tags: ['security_craft.add_camera']}"
     }
