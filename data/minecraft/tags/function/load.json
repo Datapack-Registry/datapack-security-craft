@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "security_craft:datapack/add",
+        "security_craft:scoreboard/add",
+        "security_craft:app/setup"
+    ]
+}

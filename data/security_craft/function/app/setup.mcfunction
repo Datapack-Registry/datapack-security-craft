@@ -1,0 +1,1 @@
+function security_craft:app/load_message

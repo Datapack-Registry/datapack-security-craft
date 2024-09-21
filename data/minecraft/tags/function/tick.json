@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "{{namespace}}:app/main"
+        "security_craft:app/main"
     ]
 }

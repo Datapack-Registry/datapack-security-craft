@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "security_camera",
+  "pattern": [
+    "III",
+    "IRI",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+      "minecraft:custom_model_data": 10,
+      "minecraft:item_name": "{translate: 'security_craft.terminal'}",
+      "minecraft:custom_data": "{}",
+      "minecraft:entity_data": "{id: 'minecraft:item_frame', Tags: ['security_craft.add_camera']}"
+    }
+  }
+}

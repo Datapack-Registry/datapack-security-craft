@@ -1,7 +1,7 @@
-function {{namespace}}:datapack/remove
-function {{namespace}}:scoreboard/remove
+function security_craft:datapack/remove
+function security_craft:scoreboard/remove
 
-function {{namespace}}:logging/log {\
+function security_craft:logging/log {\
   prefix: "{{datapack_name}}",\
   message: "Datapack was uninstalled successfully!"\
 }

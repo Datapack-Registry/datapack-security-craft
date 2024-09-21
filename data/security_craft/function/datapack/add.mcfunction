@@ -1,5 +1,5 @@
 data modify storage datapack:registry list append value {\
-  namespace: '{{namespace}}',\
+  namespace: 'security_craft',\
   name: '{{datapack_name}}',\
   description: '{{datapack_description}}',\
   version: {\
