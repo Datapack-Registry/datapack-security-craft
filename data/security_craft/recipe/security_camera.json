@@ -25,10 +25,10 @@
     "id": "minecraft:item_frame",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 20,
+      "minecraft:custom_model_data": 10,
       "minecraft:item_name": "{translate: 'security_craft.camera.name', fallback: 'Security Camera'}",
       "minecraft:custom_data": "{}",
-      "minecraft:entity_data": "{id: 'minecraft:item_frame', Tags: ['security_craft.add_camera']}"
+      "minecraft:entity_data": "{id: 'minecraft:item_frame', Invisible: 1b, Tags: ['security_craft', 'security_craft.item', 'security_craft.item.security_camera', 'security_craft.item.security_camera.placed']}"
     }
   }
 }

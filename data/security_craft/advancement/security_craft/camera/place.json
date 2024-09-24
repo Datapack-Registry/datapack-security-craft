@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.*": {
+                  "items": "minecraft:item_frame",
+                  "components": {
+                    "minecraft:entity_data": "{'id': 'minecraft:item_frame'}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "security_craft:advancement/camera/place"
+  }
+}
