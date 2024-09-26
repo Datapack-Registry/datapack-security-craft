@@ -1,7 +1,7 @@
 {
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:any_block_use",
+    "place": {
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "player": [
           {
@@ -11,8 +11,8 @@
               "slots": {
                 "weapon.*": {
                   "items": "minecraft:item_frame",
-                  "components": {
-                    "minecraft:entity_data": "{'id': 'minecraft:item_frame'}"
+                  "predicates": {
+                    "minecraft:custom_data": "{security_craft: {item: {id: 'security_craft:security_camera'}}}"
                   }
                 }
               }
@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "security_craft:advancement/camera/place"
+    "function": "security_craft:advancement/block/security_camera/place"
   }
 }
