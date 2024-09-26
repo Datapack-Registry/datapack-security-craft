@@ -1,2 +1,1 @@
-function security_craft:camera/give
-function security_craft:terminal/give
+function security_craft:block/security_camera/give
