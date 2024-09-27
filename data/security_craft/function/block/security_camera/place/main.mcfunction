@@ -2,8 +2,10 @@
 #
 # This function handles the placement of the security_camera block.
 
-# IF (not valid position)
-execute unless function security_craft:block/security_camera/place/placing/is_valid_block_to_place run \
-  return run function security_craft:block/security_camera/place/placing/invalid/main
-# ELSE
+execute if function security_craft:block/security_camera/place/placing/validating/is_invalid_block_to_place run \
+  return run function security_craft:block/security_camera/place/placing/invalid/invalid_position/main
+
+execute if function security_craft:block/security_camera/place/placing/validating/is_obstructed_by_entity run \
+  return run function security_craft:block/security_camera/place/placing/invalid/obstructed_by_entity/main
+
 function security_craft:block/security_camera/place/placing/valid/main

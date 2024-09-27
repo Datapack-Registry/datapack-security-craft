@@ -2,8 +2,6 @@
 #
 # This function places the security_camera block.
 
-say @a[tag=this] valid
-
 execute as @s[x_rotation=90.0,y_rotation=0.0] run function security_craft:block/security_camera/place/placing/valid/directions/ceiling/down
 
 execute as @s[x_rotation=0.0,y_rotation=0.0] run function security_craft:block/security_camera/place/placing/valid/directions/wall/south

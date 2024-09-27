@@ -1,4 +1,4 @@
-#> security_craft:block/security_camera/place/placing/invalid/message
+#> security_craft:block/security_camera/place/placing/invalid/message/invalid_postion
 #
 # This function displays an invalid position message above the hotbar.
 
