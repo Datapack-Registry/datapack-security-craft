@@ -1,34 +1,32 @@
-#> security_craft:block/security_camera/place/placing/valid/directions/wall/north
+#> security_craft:block/security_camera/place/placing/valid/directions/east/model
 #
-# This function places the security_camera block in direction north.
-
-function security_craft:block/security_camera/place/placing/valid/hitbox/main {direction: 'north'}
+# This function places the model for the security_camera block in direction east.
 
 summon minecraft:item_display ~0.5 ~0.5 ~0.5 {\
+  Rotation: [270f, 0f],\
   Tags: [\
     "security_craft",\
     "security_craft.block",\
     "security_craft.block.security_camera",\
     "security_craft.block.security_camera.mount",\
-    "security_craft.direction.north"\
+    "security_craft.direction.east"\
   ],\
-  Rotation: [180F, 0F],\
   item: {\
     id: "minecraft:stick",\
     count: 1,\
     components: {"minecraft:custom_model_data": 10}\
   }\
 }
-summon minecraft:item_display ~0.5 ~0.5 ~0.75 {\
+summon minecraft:item_display ~0.25 ~0.5 ~0.5 {\
+  Rotation: [270f, 0f],\
   Tags: [\
     "security_craft",\
     "security_craft.block",\
     "security_craft.block.security_camera",\
     "security_craft.block.security_camera.head",\
-    "security_craft.direction.north"\
+    "security_craft.direction.east"\
   ],\
   teleport_duration: 1,\
-  Rotation: [180F, 0F],\
   item: {\
     id: "minecraft:stick",\
     count: 1,\

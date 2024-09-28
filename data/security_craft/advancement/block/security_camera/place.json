@@ -1,25 +1,7 @@
 {
   "criteria": {
     "place": {
-      "trigger": "minecraft:item_used_on_block",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "slots": {
-                "weapon.*": {
-                  "items": "minecraft:item_frame",
-                  "predicates": {
-                    "minecraft:custom_data": "{security_craft: {item: {id: 'security_craft:security_camera'}}}"
-                  }
-                }
-              }
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:item_used_on_block"
     }
   },
   "rewards": {
