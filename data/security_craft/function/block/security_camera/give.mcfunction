@@ -29,7 +29,7 @@ give @s minecraft:item_frame[\
       'translate': 'security_craft.item.security_craft.security_camera.id',\
       'italic': false,\
       'color': 'dark_gray'\
-    }",\
+    }"\
   ],\
   minecraft:custom_data = {\
     security_craft: {\
