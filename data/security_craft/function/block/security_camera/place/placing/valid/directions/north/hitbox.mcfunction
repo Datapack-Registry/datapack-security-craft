@@ -5,7 +5,6 @@
 summon minecraft:interaction ~0.5 ~0.125 ~0.8125 {\
   width: 0.375f,\
   height: 0.5625f,\
-  Rotation: [180f, 0f],\
   Tags: [\
     'security_craft',\
     'security_craft.block',\
@@ -17,7 +16,6 @@ summon minecraft:interaction ~0.5 ~0.125 ~0.8125 {\
 summon minecraft:interaction ~0.5 ~0.125 ~0.4375 {\
   width: 0.375f,\
   height: 0.5625f,\
-  Rotation: [180f, 0f],\
   Tags: [\
     'security_craft',\
     'security_craft.block',\
