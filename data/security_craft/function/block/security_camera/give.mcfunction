@@ -40,7 +40,7 @@ give @s minecraft:item_frame[\
   },\
   minecraft:entity_data = {\
     id: 'minecraft:item_frame',\
-    Invisible: 0b,\
+    Invisible: 1b,\
     Silent: 1b,\
     Tags: [\
       'security_craft',\
