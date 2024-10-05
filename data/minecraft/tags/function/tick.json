@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "security_craft:advancement/main",
+        "security_craft:block/all/main",
         "security_craft:app/main"
     ]
 }
