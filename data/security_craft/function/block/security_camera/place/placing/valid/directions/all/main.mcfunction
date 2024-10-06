@@ -11,4 +11,4 @@ summon minecraft:marker ~0.5 ~0.5 ~0.5 {\
   ]\
 }
 
-playsound minecraft:block.stone.place block @a[distance=..5] ~ ~ ~ 1 0.8
+playsound minecraft:block.stone.place block @a ~ ~ ~ 1 0.8
