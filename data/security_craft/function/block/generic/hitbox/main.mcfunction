@@ -1,6 +1,6 @@
 #> security_craft:block/generic/hitbox/main
 #
-# This function calculates and summons a hitbox for a block.  
+# This function calculates and summons a hitbox for a block.
 # ```
 # width = widthPixel / 16
 # height = heightPixel / 16
